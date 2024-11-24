@@ -47,7 +47,7 @@ int main(int argc, char **argv) {
 		text = read_file(mockfile_names[i]);
 		i++;
 	}
-
+	text = trim_lines(text);
 	i = 1;
 	while (i < argc) {
 		do_mockfile(text, argv[i]);

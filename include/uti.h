@@ -19,6 +19,7 @@ typedef short int i16;
 typedef int i32;
 
 char *read_file(char *path);
+char *trim_lines(char *text);
 
 
 
